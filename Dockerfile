@@ -12,6 +12,5 @@ FROM scratch
 COPY --from=builder /app/cmd/cowsay /cowsay
 COPY *.yml ./ 
 
-
 EXPOSE 8080
 ENTRYPOINT ["/cowsay"]
