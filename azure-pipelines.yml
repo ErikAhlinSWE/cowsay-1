@@ -27,5 +27,4 @@ stages:
         env:
             DOCKER_USERNAME: $(DOCKER_USERNAME)
             DOCKER_PASSWORD: $(DOCKER_PASSWORD)
-
 #           docker login -u ahlin.erik -p yacloud1 https://git.systementor.se
